@@ -29,6 +29,15 @@ By default it uses 95% confidence `(z = 1.644853)`. If you want to change the co
 Wilson.Score(upvotes, total, 2.326348); // 99% confidence
 ```
 
+Using Wilson Score the case mentioned at the start would give these values:
+
+Item | Average Score | Wilson Score
+:----: | :-------: | :------------:
+Item A | 90%  | 88.32%
+Item B | 100% | 26.98%
+
+Wilson Score puts Item A in a better position, now everyone is happy.
+
 Right now that's all it does, and that's probably all you need anyway.
 
 Notes
