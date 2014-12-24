@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>WilsonScore</id>
+        <version>1.0.0</version>
+        <title>WilsonScore</title>
+        <authors>Mahmoud Ali</authors>
+        <owners>Mahmoud Ali</owners>
+        <licenseUrl>https://github.com/akamud/wilson-score-csharp/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/akamud/wilson-score-csharp</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/akamud/wilson-score-csharp/master/logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Wilson Score implementation for C#</description>
+    </metadata>
+    <files>
+        <file src="WilsonScore\bin\Release\WilsonScore.dll" target="lib\net20\WilsonScore.dll" />
+        <file src="WilsonScore\Wilson.cs" target="src\Wilson.cs" />
+    </files>
+</package>
