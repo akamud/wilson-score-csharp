@@ -8,7 +8,7 @@ Here's why:
 Item A has 900 upvotes and 100 downvotes, resulting in an average of 90% likes. <br />
 Item B just came up in your database, it has 1 upvote and 0 downvotes, resulting in 100% likes! Woot!
 
-That's not what you want, is it?
+Now Item B will come first than Item A. That's not what you want, is it?
 
 That's exactly the problem that [Wilson Score](http://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval) solves.
 
