@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WilsonScore", "WilsonScore\WilsonScore.csproj", "{01686B11-07CD-4394-A413-CD2204F8F9DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8B0ECCD3-9354-453C-916B-B4AB90BDFF46}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WilsonScore.Tests", "WilsonScore.Tests\WilsonScore.Tests.csproj", "{157D2215-388C-4383-A53A-6FF49948E7FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01686B11-07CD-4394-A413-CD2204F8F9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01686B11-07CD-4394-A413-CD2204F8F9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01686B11-07CD-4394-A413-CD2204F8F9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01686B11-07CD-4394-A413-CD2204F8F9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157D2215-388C-4383-A53A-6FF49948E7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157D2215-388C-4383-A53A-6FF49948E7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157D2215-388C-4383-A53A-6FF49948E7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157D2215-388C-4383-A53A-6FF49948E7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
