@@ -1,5 +1,6 @@
 Wilson Score for C#
 ===================
+![](https://raw.githubusercontent.com/akamud/wilson-score-csharp/master/logo-256.png)
 
 You shouldn't use average for your scores.
 
@@ -14,7 +15,7 @@ That's exactly the problem that [Wilson Score](http://en.wikipedia.org/wiki/Bino
 
 I found out about this on '[How Not To Sort By Average Rating](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html)'. Give it a read.
 
-**Tl;dr**: Wilson Score takes into account that a higher number of votes has more chance to be a correct representation of the general opinion. It basically answers the question **Given the ratings I have, there is a 95% chance that the "real" fraction of positive ratings is at least what?**
+**Tl;dr**: Wilson Score takes into account that a higher number of votes has more chance to be a correct representation of the general opinion. It basically answers the question: **Given the ratings I have, there is a 95% chance that the "real" fraction of positive ratings is at least what?**
 
 If you still think you should sort by average, know that Reddit [uses](http://amix.dk/blog/post/19588) this on "best" sorting. [Yelp](http://officialblog.yelp.com/2011/02/the-most-romantic-city-on-yelp-is.html) too.
 
