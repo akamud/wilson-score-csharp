@@ -19,6 +19,11 @@ I found out about this on '[How Not To Sort By Average Rating](http://www.evanmi
 If you still think you should sort by average, know that Reddit [uses](http://amix.dk/blog/post/19588) this on "best" sorting. [Yelp](http://officialblog.yelp.com/2011/02/the-most-romantic-city-on-yelp-is.html) too.
 
 ### Using WilsonScore in your C# projects
+Nuget package available [here](https://www.nuget.org/packages/WilsonScore/), install it with
+```
+PM> Install-Package WilsonScore
+```
+
 Using it is as simple as you would expect:
 ```C#
 Wilson.Score(upvotes, total);
