@@ -29,7 +29,7 @@ By default it uses 95% confidence `(z = 1.644853)`. If you want to change the co
 Wilson.Score(upvotes, total, 2.326348); // 99% confidence
 ```
 
-Using Wilson Score the case mentioned at the start would give these values:
+Using Wilson Score on the case mentioned at the start would give these values:
 
 Item | Average Score | Wilson Score
 :----: | :-------: | :------------:
