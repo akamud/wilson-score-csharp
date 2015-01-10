@@ -23,11 +23,11 @@ namespace WilsonScore.Tests
         }
 
         [Fact]
-        void Int_Overload_Should_Be_The_Same_As_Double_Overload()
+        void Int_Overload_Should_Result_The_Same_As_Double_Overload()
         {
-            double expectedDouble = ((double)8 / (double)32);
-            int expectedInt = (8 / 32);
-            Assert.True(expectedInt < expectedDouble);
+            double expectedDouble = Wilson.Score((double)8, (double)32);
+            double expectedInt = Wilson.Score(8, 32);
+            Assert.Equal(expectedInt, expectedDouble);
         }
 
         [Fact]
