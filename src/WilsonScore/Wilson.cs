@@ -17,5 +17,10 @@ namespace WilsonScore
 
             return (phat + z2 / (2 * total) - confidence * Math.Sqrt((phat * (1 - phat) + z2 / (4 * total)) / total)) / (1 + z2 / total);
         }
+
+        public static double Score(int up, int total, double confidence = 1.644853)
+        {
+            return Score((double) up, (double) total, confidence);
+        }
     }
 }
