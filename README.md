@@ -49,13 +49,13 @@ Right now that's all it does, and that's probably all you need anyway.
 
 Supported Platforms
 ==========
-.NET Framework 4+ 
-Silverlight 5+ 
-Windows 8+ 
-Windows Phone 8.1+ 
-Windows Phone Silverlight 8 
-Xamarin.Android 
-Xamarin.iOS 
+.NET Framework 4+ <br />
+Silverlight 5+  <br />
+Windows 8+  <br />
+Windows Phone 8.1+  <br />
+Windows Phone Silverlight 8  <br />
+Xamarin.Android  <br />
+Xamarin.iOS  <br />
 
 Notes
 ==========
