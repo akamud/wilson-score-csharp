@@ -19,7 +19,8 @@ I found out about this on '[How Not To Sort By Average Rating](http://www.evanmi
 
 If you still think you should sort by average, know that Reddit [uses](http://amix.dk/blog/post/19588) this on "best" sorting. [Yelp](http://officialblog.yelp.com/2011/02/the-most-romantic-city-on-yelp-is.html) too.
 
-### Using WilsonScore in your C# projects
+Using WilsonScore in your C# projects
+=========
 Nuget package available [here](https://www.nuget.org/packages/WilsonScore/), install it with
 ```
 PM> Install-Package WilsonScore
@@ -45,6 +46,16 @@ Item B | 100% | 26.98%
 Wilson Score puts Item A in a better position, now everyone is happy.
 
 Right now that's all it does, and that's probably all you need anyway.
+
+Supported Platforms
+==========
+.NET Framework 4+ 
+Silverlight 5+ 
+Windows 8+ 
+Windows Phone 8.1+ 
+Windows Phone Silverlight 8 
+Xamarin.Android 
+Xamarin.iOS 
 
 Notes
 ==========
