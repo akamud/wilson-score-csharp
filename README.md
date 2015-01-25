@@ -59,5 +59,5 @@ Xamarin.iOS  <br />
 
 Notes
 ==========
-Based on the [javascript version](https://github.com/math-utils/wilson-score). <br />
+Based on the [javascript version](https://github.com/math-utils/wilson-score) by [Jonathan Ong](https://github.com/jonathanong). <br />
 License Apache V2
