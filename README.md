@@ -60,4 +60,4 @@ Xamarin.iOS  <br />
 Notes
 ==========
 Based on the [javascript version](https://github.com/math-utils/wilson-score) by [Jonathan Ong](https://github.com/jonathanong). <br />
-License Apache V2
+[MIT License](https://github.com/akamud/wilson-score-csharp/blob/master/LICENSE)
