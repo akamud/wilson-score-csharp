@@ -1,4 +1,4 @@
-Wilson Score for C#
+Wilson Score for C# ![](https://img.shields.io/nuget/v/WilsonScore.svg?style=flat)
 ===================
 ![](https://raw.githubusercontent.com/akamud/wilson-score-csharp/master/logo-256.png)
 
