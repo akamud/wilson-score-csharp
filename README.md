@@ -31,8 +31,10 @@ Using it is as simple as you would expect:
 Wilson.Score(upvotes, total);
 ```
 
-By default it uses 95% confidence `(z = 1.644853)`. If you want to change the confidence, you can pass a third parameter, like so:
+By default it uses 90% confidence `(z = 1.644853)`. If you want to change the confidence, you can pass a third parameter, like so:
 ```C#
+Wilson.Score(upvotes, total, 1.96); // 95% confidence
+// or
 Wilson.Score(upvotes, total, 2.326348); // 99% confidence
 ```
 
