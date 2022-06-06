@@ -11,7 +11,7 @@ namespace WilsonScore
         /// </summary>
         /// <param name="up">Number of upvotes</param>
         /// <param name="total">Total number of votes</param>
-        /// <param name="confidence">Confidence used in calculation, default 1.644853 (95%)</param>
+        /// <param name="confidence">Confidence used in calculation, default 1.644853 (90%)</param>
         public static double Score(double up, double total, double confidence = 1.644853)
         {
             /** Based on http://www.evanmiller.org/how-not-to-sort-by-average-rating.html **/
@@ -29,7 +29,7 @@ namespace WilsonScore
         /// </summary>
         /// <param name="up">Number of upvotes</param>
         /// <param name="total">Total number of votes</param>
-        /// <param name="confidence">Confidence used in calculation, default 1.644853 (95%)</param>
+        /// <param name="confidence">Confidence used in calculation, default 1.644853 (90%)</param>
         public static double Score(int up, int total, double confidence = 1.644853)
         {
             return Score((double) up, (double) total, confidence);
